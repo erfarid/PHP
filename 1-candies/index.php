@@ -87,6 +87,7 @@ $maxprice =max($prices);
 
               }
               echo "<td class='" .$class . "'>". $price . "</td>";
+            echo "<td class=\"$class\"> $cell</td>";
           }
           if($count>0){
             $averageprice =round($totalPrice/$count,0); 
